@@ -10,12 +10,16 @@ class Question(models.Model):
     question_text = models.CharField(max_length=200)
     pub_date = models.DateTimeField("date published")
 
-    def was_published_recentry(self) -> bool:
+    def was_published_recently(self) -> bool:
         now = timezone.now()
         return now - datetime.timedelta(days=1) <= self.pub_date <= now
 
     def __str__(self) -> str:
         return self.question_text
+
+    was_published_recently.admin_order_field = "pub_date"
+    was_published_recently.boolean = True
+    was_published_recently.short_description = "Published recently?"
 
 
 class Choice(models.Model):
