@@ -24,6 +24,7 @@ flake8-SQL = "^0.4.1"
 flake8-use-fstring = "^1.1"
 fire = "^0.3.1"
 json5 = "^0.9.5"
+django-stubs = "^1.7.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
