@@ -1,0 +1,58 @@
+{
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__"
+    ],
+    "useLibraryCodeForTypes": true,
+    "reportMissingImports": true,
+    "reportMissingTypeStubs": false,
+    "reportSelfClsParameterName": true,
+    "reportUnsupportedDunderAll": true,
+    "reportInvalidStringEscapeSequence": true,
+    "reportWildcardImportFromLibrary": true,
+    "reportMissingModuleSource": true,
+    "reportImportCycles": true,
+    "reportUnusedImport": true,
+    "reportUnusedClass": true,
+    "reportUnusedFunction": true,
+    "reportUnusedVariable": true,
+    "reportDuplicateImport": true,
+    "reportOptionalSubscript": true,
+    "reportOptionalMemberAccess": true,
+    "reportOptionalCall": true,
+    "reportOptionalIterable": true,
+    "reportOptionalContextManager": true,
+    "reportOptionalOperand": true,
+    "reportUntypedFunctionDecorator": true,
+    "reportUntypedBaseClass": true,
+    "reportUntypedNamedTuple": true,
+    "reportPrivateUsage": true,
+    "reportConstantRedefinition": true,
+    "reportIncompatibleMethodOverride": true,
+    "reportIncompatibleVariableOverride": true,
+    "reportUnknownParameterType": true,
+    "reportUnknownArgumentType": true,
+    "reportUnknownLambdaType": true,
+    "reportUnknownVariableType": true,
+    "reportMissingTypeArgument": true,
+    "reportCallInDefaultInitializer": true,
+    "reportUnnecessaryIsInstance": true,
+    "reportUnnecessaryCast": true,
+    "reportImplicitStringConcatenation": true,
+    "reportInvalidStubStatement": true,
+    "reportUnusedCallResult": true,
+    "pythonVersion": "3.9",
+    "venvPath": "./.venv/",
+    "executionEnvironments": [
+        {
+            "root": "src",
+            "venv": "./.venv",
+            "extraPaths": [
+                "./.venv/lib/python3.9/site-packages/"
+            ]
+        }
+    ]
+}
