@@ -6,6 +6,13 @@
         "editor.insertSpaces": true,
         "editor.tabSize": 4
     },
+    "beautify.language": {
+        "html": [
+            "htm",
+            "html",
+            "django-html"
+        ]
+    },
     "cSpell.ignoreRegExpList": [
         "[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"
     ],

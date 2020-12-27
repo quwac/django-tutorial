@@ -6,6 +6,10 @@ code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
 code --install-extension donjayamanne.python-extension-pack
 code --install-extension himanoa.Python-autopep8
+code --install-extension bungcip.better-toml
+code --install-extension foxundermoon.shell-format
+code --install-extension timonwong.shellcheck
+code --install-extension hookyqr.beautify
 
 # Install Python
 python_version=$(head -1 ".python-version")
