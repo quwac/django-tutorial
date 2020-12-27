@@ -5,8 +5,7 @@
     "exclude": [
         "**/node_modules",
         "**/__pycache__",
-        "**/manage.py",
-        "**/mysite/*.py",
+        "src/manage.py",
         "**/**/migrations/*.py"
     ],
     "useLibraryCodeForTypes": true,
